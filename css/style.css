@@ -42,18 +42,13 @@
 .bg-img img{
     width: 100%;
     position: absolute;
-    height: 1001px;
+    height: 818px;
     object-fit: cover;
 
 }
 .footer{
     height: 454px;
     background-color: black;
-}
-.main_sec p{
-    line-height: 500px;
-    color: white;
-    font-size: 30px;
 }
 .logo{
     margin: 0 270px 0;
@@ -150,8 +145,29 @@
     left: 50%;
 }
 .footer{
-    height: 100px;
+    min-height: 100px;
     position: relative;
     z-index: 0;
     color: black;
+}
+.content_block_main_sec span:first-of-type{
+    color: #98161b;
+    font: 13px "Arvo Bold";
+}
+.content_block_main_sec time{
+    color: #9c9c9c;
+    font: 13px "Arvo Regular";
+}
+.second_span{
+    display: block;
+    line-height: 20px;
+    color: #98161b;
+    font: 13px "Arvo Bold";
+}
+.content_block_main_sec_p{
+    display: block;
+    line-height: 18px;
+    color: #98161b;
+    font: 12px "Arvo Regular";
+    margin-top: 30px;
 }
