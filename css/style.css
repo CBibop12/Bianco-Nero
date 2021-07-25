@@ -71,6 +71,7 @@
     margin-left: auto;
     margin-right: 0;
     width: 50px;
+    right: 0;
     box-sizing: border-box;
 }
 .soc_icons a:first-of-type{
@@ -114,8 +115,39 @@
     box-sizing: border-box;
 }
 .content_block_main_sec{
-    height: 1000px;
+    padding: 62px 71px 124px;
     background-color: white;
+}
+.video{
+    background-color: #e7e7e7;
+    display: block;
+    height: 344px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.video_video{
+    position: absolute;
+    z-index: 4;
+    width: 567px;
+    height: 344px;
+    right: 71px;
+    bottom: 0;
+    object-fit: cover;
+
+}
+.fa-play{
+    color: #98161b;
+    font-size: 54px;
+    position: absolute;
+    z-index: 3;
+    margin-left: -23.63px;
+    margin-top: -27px;
+    top: 50%;
+    left: 50%;
 }
 .footer{
     height: 100px;
